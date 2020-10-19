@@ -37,8 +37,8 @@
         const box = document.getElementById("box");
         const dom = document.getElementById("dom");
         function t(){
-            if(box.value > 1){
-                const c = box.value - 2;
+            if(parseInt(box.value) > 1){
+                const c = parseInt(box.value) - 2;
                 const res = c * 180;
                 dom.innerText = res + "°";
             }else{
