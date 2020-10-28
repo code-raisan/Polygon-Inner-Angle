@@ -44,7 +44,7 @@
       const box_num = Number(box.value);
       if (box_num >= 3 && Number.isInteger(box_num)) {
         const res = (box_num - 2) * 180;
-        dom.innerText = res.MAX_SAFE_INTEGER + "°";
+        dom.innerText = BigInt(res) + "°";
       } else {
         alert("3以上の自然数を入力してください");
       }
