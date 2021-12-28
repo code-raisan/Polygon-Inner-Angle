@@ -4,4 +4,4 @@
 多角形の内角の和を計算できます
 
 こちらより見れます
-> https://riysan.github.io/Polygon-Inner-Angle/
+> https://code-raisan.github.io/Polygon-Inner-Angle/
